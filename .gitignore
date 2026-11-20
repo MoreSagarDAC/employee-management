@@ -4,7 +4,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# Virtual environments
 venv/
 .venv/
 env/
@@ -16,17 +16,44 @@ env/
 
 # IDE settings
 .vscode/
+.idea/
 
 # Testing and coverage
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
+.tox/
+.nox/
 
-# Build files
+# Build and distribution
 build/
 dist/
 *.egg-info/
 
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Database files (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python packaging
+pip-wheel-metadata/
+
 # Operating system files
 .DS_Store
 Thumbs.db
+Desktop.ini
